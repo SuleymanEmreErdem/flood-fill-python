@@ -48,7 +48,7 @@ def flood(x, y):
 
 if __name__ == '__main__':
     print(maze_arr)
-    flood(4, 4) #parameter selects the start point
+    flood(1, 1) #parameter selects the start point
     print(flood_arr)
     while True:
         for event in pygame.event.get():
